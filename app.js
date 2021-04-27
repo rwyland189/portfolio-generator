@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-// // The require statement is necessary to use the file system (fs) module
+// //The require statement is necessary to use the file system (fs) module
 // const fs = require("fs");
 
 // // Access module in page-template.js, the object in the module.exports assignment will be reassigned to the generatePage variable in app.js
@@ -19,6 +19,7 @@ const inquirer = require("inquirer");
 
 inquirer
     .prompt([
+        // Question object
         {
             type: "input",
             name: "name",
